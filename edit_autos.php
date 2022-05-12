@@ -60,31 +60,31 @@ if (isset($_GET['edit_id'])) {
                 <form method="post">
                     <div class="form-group">
                         <label for="matricula">Matricula</label>
-                        <input id="matricula" value="<?php echo $matricula; ?>" class="form-control" type="text" name="matricula">
+                        <input id="matricula" value="<?php echo $matricula; ?>" class="form-control" type="text" name="matricula" required>
                     </div>
                     <div class="form-group">
                         <label for="marca">Marca</label>
-                        <input id="marca" value="<?php echo $marca; ?>" class="form-control" type="text" name="marca">
+                        <input id="marca" value="<?php echo $marca; ?>" class="form-control" type="text" name="marca" required>
                     </div>
                     <div class="form-group">
                         <label for="modelo">Modelo</label>
-                        <input id="modelo" value="<?php echo $modelo; ?>" class="form-control" type="text" name="modelo">
+                        <input id="modelo" value="<?php echo $modelo; ?>" class="form-control" type="text" name="modelo" required>
                     </div>
                     <div class="form-group">
                         <label for="TipoVehiculo">Tipo de Vehiculo</label>
-                        <input id="TipoVehiculo" value="<?php echo $TipoVehiculo; ?>" class="form-control" type="text" name="TipoVehiculo">
+                        <input id="TipoVehiculo" value="<?php echo $TipoVehiculo; ?>" class="form-control" type="text" name="TipoVehiculo" required>
                     </div>
                     <div class="form-group">
                         <label for="precio">Precio</label>
-                        <input id="precio" value="<?php echo $precio; ?>" class="form-control" type="text" name="precio">
+                        <input id="precio" value="<?php echo $precio; ?>" class="form-control" type="text" name="precio" required>
                     </div>
                     <div class="form-group">
                         <label for="nombre_cliente">Nombre del Cliente</label>
-                        <input id="nombre_cliente" value="<?php echo $nombre_cliente; ?>" class="form-control" type="text" name="nombre_cliente">
+                        <input id="nombre_cliente" value="<?php echo $nombre_cliente; ?>" class="form-control" type="text" name="nombre_cliente" required>
                     </div>
                     <div class="form-group">
                         <label for="telefono_cliente">Telefono del Cliente</label>
-                        <input id="telefono_cliente" value="<?php echo $telefono_cliente; ?>" class="form-control" type="text" name="telefono_cliente">
+                        <input id="telefono_cliente" value="<?php echo $telefono_cliente; ?>" class="form-control" type="text" name="telefono_cliente" required>
                     </div>
                     <div class="form-group">
 
